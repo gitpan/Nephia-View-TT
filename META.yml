@@ -1,0 +1,43 @@
+---
+abstract: 'Template for Nephia'
+author:
+  - 'ytnobody <ytnobody@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.36
+  HTTP::Request::Common: 0
+  Plack::Test: 0
+  Test::More: 0
+configure_requires:
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.4.2, CPAN::Meta::Converter version 2.130880'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Nephia-View-TT
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+provides:
+  Nephia::Setup::View::TT:
+    file: lib/Nephia/Setup/View/TT.pm
+  Nephia::View::TT:
+    file: lib/Nephia/View/TT.pm
+    version: 0.01
+requires:
+  Nephia: 0
+  Template: 0
+resources:
+  bugtracker: https://github.com/ytnobody/Nephia-View-TT/issues
+  homepage: https://github.com/ytnobody/Nephia-View-TT
+  repository: git://github.com/ytnobody/Nephia-View-TT.git
+version: 0.01
