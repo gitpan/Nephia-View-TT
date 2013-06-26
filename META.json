@@ -60,7 +60,7 @@
       },
       "Nephia::View::TT" : {
          "file" : "lib/Nephia/View/TT.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       }
    },
    "release_status" : "stable",
@@ -74,5 +74,5 @@
          "web" : "https://github.com/ytnobody/Nephia-View-TT"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
