@@ -20,6 +20,10 @@ sub index_template_file {
     $self->spew_as_template($file, $body);
 }
 
+sub required_modules {
+    'Nephia::View::TT' => '0',
+}
+
 1;
 
 __DATA__
@@ -31,7 +35,7 @@ use strict;
 use warnings;
 use Nephia;
 
-our $VERSION = 0.05;
+our $VERSION = 0.06;
 
 path '/' => sub {
     my $req = shift;
@@ -73,17 +77,6 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 :::cut
-===
-
-cpanfile
----
-requires 'Nephia' => '0';
-requires 'Nephia::View::TT' => '0';
-
-on build => sub {
-    requires 'Test::More';
-};
-
 ===
 
 common_conf

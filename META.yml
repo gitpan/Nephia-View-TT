@@ -12,7 +12,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.4.2, CPAN::Meta::Converter version 2.130880'
+generated_by: 'Minilla/v0.5.3, CPAN::Meta::Converter version 2.131560'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -32,7 +32,7 @@ provides:
     file: lib/Nephia/Setup/View/TT.pm
   Nephia::View::TT:
     file: lib/Nephia/View/TT.pm
-    version: 0.05
+    version: 0.06
 requires:
   File::Spec: 0
   Nephia: 0
@@ -41,4 +41,6 @@ resources:
   bugtracker: https://github.com/ytnobody/Nephia-View-TT/issues
   homepage: https://github.com/ytnobody/Nephia-View-TT
   repository: git://github.com/ytnobody/Nephia-View-TT.git
-version: 0.05
+version: 0.06
+x_contributors:
+  - 'papix <mail@papix.net>'
